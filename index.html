@@ -3,10 +3,67 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Rethink+Sans&family=Space+Grotesk&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+  <title>Rock-Paper-Scissors</title>
 </head>
 <body>
-  
+  <h1>ROCK-PAPER-SCISSORS</h1>
+
+  <div class="container">
+		
+    <div class="items one">
+    
+      <div class="inner computer">
+        <h2 class="">COMPUTER</h2>	
+      </div>
+    
+      <div class="inner icons">
+        <div class="weapons"> <img src="img/rock.svg" alt="Rock"> </div>
+        <div class="weapons"> <img src="img/paper.svg" alt="Paper"> </div>
+        <div class="weapons"> <img src="img/scissors.svg" alt="Scissors"> </div>
+      </div>
+      
+    </div>
+    
+    <div class="items main two">
+    
+      <div class="left box">
+        <div class="score"> <h3>Computer Score</h3> </div>
+        <div class="score"> <h1>0</h1> </div>
+      </div>
+      
+      <div class="message box">
+        <div class="top"> <h4>ROUND 1</h4> </div>
+        <div class="middle"> <h1>YOU WON..!</h1> </div>
+        <div class="bottom"> <h3>Paper beats Rock</h3>  </div>				
+      </div>
+      
+      <div class="right box">
+        <div class="score"> <h3>Human Score</h3> </div>
+        <div class="score"> <h1>1</h1> </div>
+      </div>
+      
+    </div>
+    
+    <div class="items three">
+    
+      <div class="inner icons">
+        <div class="weapons"> <img src="img/rock.svg" alt="Rock"> </div>
+        <div class="weapons"> <img src="img/paper.svg" alt="Paper"> </div>
+        <div class="weapons"> <img src="img/scissors.svg" alt="Scissors"> </div>
+      </div>
+      
+      <div class="inner player">
+        <h2 class="human">HUMAN</h2>	
+      </div>
+    
+    </div>
+
+  </div>
+
   <script src="game.js"></script>
 </body>
 </html>

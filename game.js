@@ -78,7 +78,7 @@ function game(){
     
 }
 
-game();
+// game();
 
 
 
