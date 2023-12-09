@@ -1,0 +1,199 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	color: white;
+	font-family: "Space Grotesk";
+	/* font-family: "Rethink Sans"; */
+}
+
+body {
+	background: linear-gradient(180deg, #49248C, #320C78) fixed;
+}
+
+h1 {
+	text-align: center;
+	margin: 50px;
+	font-family: "Press Start 2P";
+}
+
+
+.container {
+	/* border: 1px solid gray; */
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	/* background-image: linear-gradiet(110deg, #59359C, #320C78); */
+	/* background-image: linear-gradient(110deg, #49248C, #320C78); */
+}
+
+.container .one {
+	border-radius: 10px 10px 0 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/* gap: 10px; */
+	flex-direction: column;
+}
+
+.container .three {
+	display: flex;
+	border-radius: 0 0 10px 10px;
+	justify-content: center;
+	align-items: center;
+	/* gap: 10px; */
+	flex-direction: column;
+	/* text-align: center; */
+	/* flex-wrap: wrap; */
+}
+
+.container .main {
+	width: 883px;
+	border-radius: 10px;
+}
+
+.items {
+	display: flex;
+	/* border: 1px solid gray; */
+	/* background: #EBECEC; */
+	height: 217px;
+	width: 450px;
+	background-image: linear-gradient(110deg, #49248C, #320C78);
+}
+
+.box {
+	/* border: 1px solid gray; */
+	height: 217px;
+	display: flex;
+	flex-direction: column;
+}
+
+.container .items .score {
+	display: flex;
+	width: 217px;
+	height: 108.5px;
+	/* flex-direction: column; */
+	justify-content: center;
+	align-items: center;
+}
+
+.score h3 {
+	display: flex;
+	align-items: end;
+	color: #CC99FF;
+}
+
+.score h1 {
+	color: #FFCC00;
+}
+
+.bottom h3 {
+	color: #CC99FF;
+}
+
+ .left,  .right {
+	width: 217px;
+}
+
+.items .message {
+	width: 450px;
+}
+
+/* .items .right { */
+	/* width: 217px; */
+/* } */
+
+.weapons {
+	height: 70px;
+	width: 70px;
+	/* background: #D9DADA; */
+}
+
+.items .three {
+	display: flex;
+	flex-direction: column;
+}
+
+
+
+.icons {
+	display: flex;
+	gap: 10px;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	height: 140px;
+}
+
+.player {
+	display: flex;
+	height: 77px;
+	text-align: center;
+	justify-content: center;
+	align-items: start;
+}
+
+.computer {
+	display: flex;
+	height: 77px;
+	text-align: center;
+	justify-content: center;
+	align-items: end;
+}
+
+.inner {
+	width: 450px;
+	/* flex-wrap: wrap; */
+}
+
+.weapons {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+.message {
+	display: flex;
+	flex-direction: colunmn;
+}
+
+.message .top {
+	/* border: 1px solid gray; */
+	width: 450px;
+	height: 60px;
+	display: flex;
+	align-items: end;
+	justify-content: center;
+}
+
+.message .middle {
+	/* border: 1px solid gray; */
+	width: 450px;
+	height: 96px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.message .bottom {
+	/* border: 1px solid gray; */
+	width: 450px;
+	height: 60px;
+	display: flex;
+	align-items: start;
+	justify-content: center;
+}
+
+h4 {
+	background-color: #522D96;
+	padding: 5px 15px;
+	border-radius: 5px;
+	color: #CC99FF;
+}
+
+.middle h1 {
+	color: #FFCC00;
+}
+
