@@ -11,9 +11,24 @@ body {
 	background: linear-gradient(180deg, #49248C, #320C78) fixed;
 }
 
+/* rock-paper-scissors icon color change */
+.rock:hover {
+	background-image: url(img/rock-y.svg);
+}
+
+.paper:hover {
+	background-image: url(img/paper-y.svg);
+}
+
+.scissors:hover {
+	background-image: url(img/scissors-y.svg);
+}
+
+/* ---------------------------- */
+
 h1 {
 	text-align: center;
-	margin: 50px;
+	margin: 45px;
 	font-family: "Press Start 2P";
 }
 
@@ -76,6 +91,12 @@ h1 {
 	/* flex-direction: column; */
 	justify-content: center;
 	align-items: center;
+}
+
+.score {
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
 }
 
 .score h3 {
@@ -196,4 +217,14 @@ h4 {
 .middle h1 {
 	color: #FFCC00;
 }
+
+.reset {
+	margin-top: 20px;
+	padding: 10px 25px;
+	background-color: #e100ff65;
+	color: rgb(255, 255, 255);
+	border: none;
+	border-radius: 10px;
+}
+
 
