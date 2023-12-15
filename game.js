@@ -140,7 +140,7 @@ if ( human === 'paper' && computer === 'rock' ) {
             h.removeEventListener('click', playRound);
         });           
     }else if(computerScore === 5){
-        let rounds = humanScore - computerScore == 1 ? 'round' : 'rounds';
+        let rounds = computerScore - humanScore == 1 ? 'round' : 'rounds';
         winMsg.textContent = `You lost by ${computerScore - humanScore} ${rounds}`;
         winMsg.style.color = '#E100FF'
         winInfo.textContent = `Let's play again.`;
