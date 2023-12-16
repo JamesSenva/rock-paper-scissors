@@ -25,25 +25,6 @@ let computerScore = 0;
 const roshambo = ['rock', 'paper', 'scissors'];
 
 
-// function getComputerChoice() {
-    
-    //     let computer = Math.floor(Math.random() * roshambo.length);
-    
-    //     // console.log('Computer Choice:', roshambo[computer], computer);
-    //     // return roshambo[0];
-    //     // let weaponChoiceC = roshambo[computer];
-    //     // computerWeapons.forEach( c => {
-        //     //     if(c.alt === weaponChoiceC){
-            //     //         c.src = `img/${weaponChoiceC}-y.svg`;
-            //     //     }
-            //     // });
-            //     return(roshambo[computer]);
-            // }
-            
-            // let computer = getComputerChoice();
-            // console.log(computer);
-
-
             
 humanWeapons.forEach( h => {
 
@@ -131,8 +112,8 @@ if ( human === 'paper' && computer === 'rock' ) {
 
     // once either of the player reaches the score of 5 buttons should be unclickable
     if(humanScore === 5){
-        let rounds = humanScore - computerScore == 1 ? 'round' : 'rounds';
-        winMsg.textContent = `You won by ${humanScore - computerScore} ${rounds}`;
+        let roundStrH = humanScore - computerScore == 1 ? 'round' : 'rounds';
+        winMsg.textContent = `You won by ${humanScore - computerScore} ${roundStrH}`;
         winMsg.style.color = '#00FFB7'
         winInfo.textContent = `Let's play again.`;
 
@@ -140,8 +121,8 @@ if ( human === 'paper' && computer === 'rock' ) {
             h.removeEventListener('click', playRound);
         });           
     }else if(computerScore === 5){
-        let rounds = computerScore - humanScore == 1 ? 'round' : 'rounds';
-        winMsg.textContent = `You lost by ${computerScore - humanScore} ${rounds}`;
+        let roundStrC = computerScore - humanScore == 1 ? 'round' : 'rounds';
+        winMsg.textContent = `You lost by ${computerScore - humanScore} ${roundStrC}`;
         winMsg.style.color = '#E100FF'
         winInfo.textContent = `Let's play again.`;
 
